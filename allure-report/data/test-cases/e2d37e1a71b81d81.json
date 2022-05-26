@@ -1,0 +1,154 @@
+{
+  "uid" : "e2d37e1a71b81d81",
+  "name" : "Негативный тест метода входа в систему, неправильный email",
+  "fullName" : "UserLoginTest.userLoginNegativeWrongEmailTest",
+  "historyId" : "b3d68b790222117920903a6eccef1087",
+  "time" : {
+    "start" : 1653554865346,
+    "stop" : 1653554867445,
+    "duration" : 2099
+  },
+  "description" : "При входе в систему с использованием неправильного email и существующего password возвращается код 401 и значение ключа <success> - <false>, сообщение об ошибке <message> - <email or password are incorrect>",
+  "descriptionHtml" : "<p>При входе в систему с использованием неправильного email и существующего password возвращается код 401 и значение ключа <success> - <false>, сообщение об ошибке <message> - <email or password are incorrect></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При входе в систему с использованием неправильного email и существующего password возвращается код 401 и значение ключа <success> - <false>, сообщение об ошибке <message> - <email or password are incorrect>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554865346,
+        "stop" : 1653554865346,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554865346,
+        "stop" : 1653554865678,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@7b381066"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554865679,
+        "stop" : 1653554865712,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@466c39de"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user login request",
+      "time" : {
+        "start" : 1653554866712,
+        "stop" : 1653554867059,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@7b381066"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554867129,
+        "stop" : 1653554867445,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWIzOTk5ZmIyMDAxYjZmN2M5MCIsImlhdCI6MTY1MzU1NDg2NywiZXhwIjoxNjUzNTU2MDY3fQ.cag5TvVglTrd-uKNepN98pAPbNRgCQMda1-GXTP3MG8"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userLoginNegativeWrongEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2d37e1a71b81d81.json",
+  "parameterValues" : [ ]
+}

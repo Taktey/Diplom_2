@@ -1,0 +1,154 @@
+{
+  "uid" : "714bf310f289b590",
+  "name" : "Негативный тест регистрации пользователя, повторное использование email",
+  "fullName" : "UserRegistrationTest.isDoubleUserRegistrationWithSameEmailReturnsSuccessFalseAndStatusCode403Test",
+  "historyId" : "a385f92210d641ef7bfe6db5b0e3403",
+  "time" : {
+    "start" : 1653554879930,
+    "stop" : 1653554886050,
+    "duration" : 6120
+  },
+  "description" : "При попытке зарегистрировать пользователя с использованием занятого email и с заполнением всех обязательных полейвозвращается код 403, значение ключа <success> - <false>",
+  "descriptionHtml" : "<p>При попытке зарегистрировать пользователя с использованием занятого email и с заполнением всех обязательных полейвозвращается код 403, значение ключа <success> - <false></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При попытке зарегистрировать пользователя с использованием занятого email и с заполнением всех обязательных полейвозвращается код 403, значение ключа <success> - <false>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554879930,
+        "stop" : 1653554879930,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554879931,
+        "stop" : 1653554883442,
+        "duration" : 3511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@3c72c488"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554883443,
+        "stop" : 1653554883473,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@6e1bd2b"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554884473,
+        "stop" : 1653554884724,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@3c72c488"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554884746,
+        "stop" : 1653554885049,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWM1OTk5ZmIyMDAxYjZmN2M5OSIsImlhdCI6MTY1MzU1NDg4NSwiZXhwIjoxNjUzNTU2MDg1fQ.evikpl9r7cFBIDJJ8FnMHag-cVQZZayr5-h7w-YK2f4"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "isDoubleUserRegistrationWithSameEmailReturnsSuccessFalseAndStatusCode403Test"
+  }, {
+    "name" : "suite",
+    "value" : "UserRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "714bf310f289b590.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "f2618333a3153422",
+  "name" : "Тест метода обновления password пользователя с авторизацией",
+  "fullName" : "UserDataUpdateTest.userPasswordDataUpdateWithAuthTest",
+  "historyId" : "5912525d93056ff991471a4766c00878",
+  "time" : {
+    "start" : 1653554861182,
+    "stop" : 1653554863266,
+    "duration" : 2084
+  },
+  "description" : "При обновлении password пользователя, возвращается код 200 и значение ключа <success> - <true>",
+  "descriptionHtml" : "<p>При обновлении password пользователя, возвращается код 200 и значение ключа <success> - <true></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При обновлении password пользователя, возвращается код 200 и значение ключа <success> - <true>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554861183,
+        "stop" : 1653554861183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554861183,
+        "stop" : 1653554861536,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@66e5441e"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554861537,
+        "stop" : 1653554861560,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@25d6ae3"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send PATCH update user data request",
+      "time" : {
+        "start" : 1653554862561,
+        "stop" : 1653554862934,
+        "duration" : 373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWFmOTk5ZmIyMDAxYjZmN2M4YiIsImlhdCI6MTY1MzU1NDg2MywiZXhwIjoxNjUzNTU2MDYzfQ.GeMOY5I15Mk3-m-AosvIKVxcrTcQ2KpRHGddMmNggAs"
+      }, {
+        "name" : "newEmail",
+        "value" : "4906gen0@mail.ru"
+      }, {
+        "name" : "newPassword",
+        "value" : "qtestPassword1"
+      }, {
+        "name" : "newName",
+        "value" : "Test Name"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554862958,
+        "stop" : 1653554863265,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWFmOTk5ZmIyMDAxYjZmN2M4YiIsImlhdCI6MTY1MzU1NDg2MywiZXhwIjoxNjUzNTU2MDYzfQ.GeMOY5I15Mk3-m-AosvIKVxcrTcQ2KpRHGddMmNggAs"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserDataUpdateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userPasswordDataUpdateWithAuthTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserDataUpdateTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2618333a3153422.json",
+  "parameterValues" : [ ]
+}
