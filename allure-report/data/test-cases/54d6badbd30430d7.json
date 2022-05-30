@@ -1,0 +1,186 @@
+{
+  "uid" : "54d6badbd30430d7",
+  "name" : "Негативный тест метода получения списка заказов пользователя без авторизаци",
+  "fullName" : "UserOrderListTest.userOrderListWithOutAuthTest",
+  "historyId" : "b496c9da375782f5a371a11e797e48f5",
+  "time" : {
+    "start" : 1653555060866,
+    "stop" : 1653555065564,
+    "duration" : 4698
+  },
+  "description" : "При неавторизированном запросе списка заказов пользователявозвращается код 401 и значение ключа <success> - <false>и сообщение об ошибке <message> - <You should be authorised>",
+  "descriptionHtml" : "<p>При неавторизированном запросе списка заказов пользователявозвращается код 401 и значение ключа <success> - <false>и сообщение об ошибке <message> - <You should be authorised></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При неавторизированном запросе списка заказов пользователявозвращается код 401 и значение ключа <success> - <false>и сообщение об ошибке <message> - <You should be authorised>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653555060867,
+        "stop" : 1653555060867,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653555060867,
+        "stop" : 1653555061344,
+        "duration" : 477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@6b71fded"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653555061346,
+        "stop" : 1653555061371,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@621c7b91"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST create order request",
+      "time" : {
+        "start" : 1653555062372,
+        "stop" : 1653555062957,
+        "duration" : 585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZjc3OTk5ZmIyMDAxYjZmN2NjMyIsImlhdCI6MTY1MzU1NTA2MywiZXhwIjoxNjUzNTU2MjYzfQ.S9B_4tgw-vspi3rvDfN43eD1ONM7RFs_-lT7N8EdWCQ"
+      }, {
+        "name" : "ingredients",
+        "value" : "[61c0c5a71d1f82001bdaaa6d, 61c0c5a71d1f82001bdaaa6f]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send GET user order list request",
+      "time" : {
+        "start" : 1653555063958,
+        "stop" : 1653555064201,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653555064251,
+        "stop" : 1653555064563,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZjc3OTk5ZmIyMDAxYjZmN2NjMyIsImlhdCI6MTY1MzU1NTA2MywiZXhwIjoxNjUzNTU2MjYzfQ.S9B_4tgw-vspi3rvDfN43eD1ONM7RFs_-lT7N8EdWCQ"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserOrderListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userOrderListWithOutAuthTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserOrderListTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "15252@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "521456c4562068f6",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
+      "time" : {
+        "start" : 1653554869650,
+        "stop" : 1653554871781,
+        "duration" : 2131
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54d6badbd30430d7.json",
+  "parameterValues" : [ ]
+}

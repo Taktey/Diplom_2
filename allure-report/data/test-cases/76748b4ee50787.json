@@ -1,0 +1,85 @@
+{
+  "uid" : "76748b4ee50787",
+  "name" : "Негативный тест регистрации пользователя",
+  "fullName" : "UserRegistrationNegativeParameterizedTest.isRegistrationWithoutFieldFillingReturnsSuccessFalseAndExpectedStatusCodeAndExpectedErrorMessageTest[Тестовые данные: email: , password: testPassword, name: testName]",
+  "historyId" : "3b84251e8cfdc28fad7821010a2e2407",
+  "time" : {
+    "start" : 1653554878493,
+    "stop" : 1653554879919,
+    "duration" : 1426
+  },
+  "description" : "При попытке зарегистрировать пользователя без заполнения всех обязательных полейвозвращается код 403, значение ключа <success> - <false>и сообщение об ошибке <message> - <Email, password and name are required fields>",
+  "descriptionHtml" : "<p>При попытке зарегистрировать пользователя без заполнения всех обязательных полейвозвращается код 403, значение ключа <success> - <false>и сообщение об ошибке <message> - &lt;Email, password and name are required fields&gt;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При попытке зарегистрировать пользователя без заполнения всех обязательных полейвозвращается код 403, значение ключа <success> - <false>и сообщение об ошибке <message> - <Email, password and name are required fields>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554878494,
+        "stop" : 1653554878829,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@78f2cab9"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserRegistrationNegativeParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "isRegistrationWithoutFieldFillingReturnsSuccessFalseAndExpectedStatusCodeAndExpectedErrorMessageTest[Тестовые данные: email: , password: testPassword, name: testName]"
+  }, {
+    "name" : "suite",
+    "value" : "UserRegistrationNegativeParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76748b4ee50787.json",
+  "parameterValues" : [ ]
+}

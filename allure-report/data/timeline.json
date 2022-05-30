@@ -1,0 +1,641 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "KY11-office",
+    "children" : [ {
+      "name" : "14124@KY11-office.main(1)",
+      "children" : [ {
+        "name" : "Тест метода создания заказа",
+        "uid" : "4c3f38528c19f7ee",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554820272,
+          "stop" : 1653554826601,
+          "duration" : 6329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест регистрации пользователя",
+        "uid" : "29184dfeca457bf6",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554886057,
+          "stop" : 1653554887803,
+          "duration" : 1746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "3ce08322bfba82fb",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554836592,
+          "stop" : 1653554838902,
+          "duration" : 2310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "1f7903ce9f937879",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554794860,
+          "stop" : 1653554820073,
+          "duration" : 25213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления email пользователя с авторизацией, новый email уже используется",
+        "uid" : "39603c2029d1fe02",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554851758,
+          "stop" : 1653554858895,
+          "duration" : 7137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "c25aa86179b9fa82",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554829393,
+          "stop" : 1653554831763,
+          "duration" : 2370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода получения списка заказов пользователя с авторизацией",
+        "uid" : "919f5e6dc765584f",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554871792,
+          "stop" : 1653554875597,
+          "duration" : 3805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления email пользователя с авторизацией",
+        "uid" : "7795b4f304d35ee3",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554841430,
+          "stop" : 1653554844163,
+          "duration" : 2733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "a224b45b4d20f639",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554877171,
+          "stop" : 1653554878490,
+          "duration" : 1319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления password пользователя с авторизацией",
+        "uid" : "f2618333a3153422",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554861182,
+          "stop" : 1653554863266,
+          "duration" : 2084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "b7e6dabd6cfe5ce8",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554838909,
+          "stop" : 1653554841416,
+          "duration" : 2507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "76748b4ee50787",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554878493,
+          "stop" : 1653554879919,
+          "duration" : 1426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления данных пользователя без авторизации",
+        "uid" : "8ccdc87a1b6fd58b",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554844175,
+          "stop" : 1653554846383,
+          "duration" : 2208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя, повторное использование email",
+        "uid" : "714bf310f289b590",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554879930,
+          "stop" : 1653554886050,
+          "duration" : 6120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "ba0c696f86f09556",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554875653,
+          "stop" : 1653554877155,
+          "duration" : 1502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода входа в систему, неправильный password",
+        "uid" : "696133a22a602310",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554867456,
+          "stop" : 1653554869642,
+          "duration" : 2186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода получения списка заказов пользователя без авторизаци",
+        "uid" : "521456c4562068f6",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653554869650,
+          "stop" : 1653554871781,
+          "duration" : 2131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "8c6edc1e3b37148b",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554826611,
+          "stop" : 1653554829388,
+          "duration" : 2777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "7a27cf591eb64b20",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554833975,
+          "stop" : 1653554836584,
+          "duration" : 2609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления всех данных пользователя",
+        "uid" : "f8ec2c181e0d1c7a",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554858905,
+          "stop" : 1653554861177,
+          "duration" : 2272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления name пользователя с авторизацией",
+        "uid" : "91dc2a3db66b0dd",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554846386,
+          "stop" : 1653554851751,
+          "duration" : 5365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода входа в систему",
+        "uid" : "59d970a697304184",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554863286,
+          "stop" : 1653554865337,
+          "duration" : 2051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "d7d93fb245a5df8d",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554831786,
+          "stop" : 1653554833967,
+          "duration" : 2181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода входа в систему, неправильный email",
+        "uid" : "e2d37e1a71b81d81",
+        "parentUid" : "e81be653ab85b56afb2ae0b3fea7b170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653554865346,
+          "stop" : 1653554867445,
+          "duration" : 2099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e81be653ab85b56afb2ae0b3fea7b170"
+    }, {
+      "name" : "15252@KY11-office.main(1)",
+      "children" : [ {
+        "name" : "Тест метода создания заказа",
+        "uid" : "8d8cc5e65f39b0b9",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555034566,
+          "stop" : 1653555036530,
+          "duration" : 1964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя, повторное использование email",
+        "uid" : "f46c1d164e1b76b2",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555077541,
+          "stop" : 1653555080459,
+          "duration" : 2918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления данных пользователя без авторизации",
+        "uid" : "30a9e1262639f2b2",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555041476,
+          "stop" : 1653555043623,
+          "duration" : 2147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "1e7f9a86003e818e",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555032268,
+          "stop" : 1653555034558,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления password пользователя с авторизацией",
+        "uid" : "e561654cf2c5c6a5",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555052160,
+          "stop" : 1653555054420,
+          "duration" : 2260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода получения списка заказов пользователя с авторизацией",
+        "uid" : "15265d1c41f3cd3e",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555065580,
+          "stop" : 1653555073330,
+          "duration" : 7750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления всех данных пользователя",
+        "uid" : "f8fd6dde9f2e8ca7",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555050062,
+          "stop" : 1653555052153,
+          "duration" : 2091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "578dba977bb5b568",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555073367,
+          "stop" : 1653555074689,
+          "duration" : 1322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "20e049579c62d34d",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555025485,
+          "stop" : 1653555027704,
+          "duration" : 2219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления name пользователя с авторизацией",
+        "uid" : "dd79420050bd9fe2",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555043631,
+          "stop" : 1653555045734,
+          "duration" : 2103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода входа в систему, неправильный email",
+        "uid" : "f79039e718dd9e01",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555056621,
+          "stop" : 1653555058605,
+          "duration" : 1984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест регистрации пользователя",
+        "uid" : "77ae5d376533bc47",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555080464,
+          "stop" : 1653555082264,
+          "duration" : 1800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода получения списка заказов пользователя без авторизаци",
+        "uid" : "54d6badbd30430d7",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555060866,
+          "stop" : 1653555065564,
+          "duration" : 4698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "edff4ac717f40673",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555030261,
+          "stop" : 1653555032258,
+          "duration" : 1997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "ffd0c3ae385b455d",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555006831,
+          "stop" : 1653555022368,
+          "duration" : 15537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "91390e695003e83f",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555036540,
+          "stop" : 1653555038531,
+          "duration" : 1991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "2ad74a5d9a0cb7bd",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555076107,
+          "stop" : 1653555077530,
+          "duration" : 1423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест регистрации пользователя",
+        "uid" : "e1e98a4de13939c2",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555074720,
+          "stop" : 1653555076102,
+          "duration" : 1382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления email пользователя с авторизацией",
+        "uid" : "6916bc9949459c61",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555038546,
+          "stop" : 1653555041472,
+          "duration" : 2926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода обновления email пользователя с авторизацией, новый email уже используется",
+        "uid" : "10588ff2ae1ed98e",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555045739,
+          "stop" : 1653555050051,
+          "duration" : 4312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Негативный тест метода входа в систему, неправильный password",
+        "uid" : "6927016825458c1",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555058615,
+          "stop" : 1653555060857,
+          "duration" : 2242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "776a2b8e14074001",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555022832,
+          "stop" : 1653555025466,
+          "duration" : 2634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода создания заказа",
+        "uid" : "b082cf45c597bf12",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555027710,
+          "stop" : 1653555030246,
+          "duration" : 2536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест метода входа в систему",
+        "uid" : "396c7c9792f1ccf2",
+        "parentUid" : "89ba5459734b7a81f74984c5b4f1182f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653555054430,
+          "stop" : 1653555056615,
+          "duration" : 2185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89ba5459734b7a81f74984c5b4f1182f"
+    } ],
+    "uid" : "76f5ec3d19c6b11d9deb8f9cb52c4087"
+  } ]
+}
