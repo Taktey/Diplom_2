@@ -1,0 +1,232 @@
+{
+  "uid" : "39603c2029d1fe02",
+  "name" : "Тест метода обновления email пользователя с авторизацией, новый email уже используется",
+  "fullName" : "UserDataUpdateTest.userEmailDataUpdateWithAuthWithExistEmailTest",
+  "historyId" : "c47acc588db7ad63253b8be1ac5ccfbd",
+  "time" : {
+    "start" : 1653554851758,
+    "stop" : 1653554858895,
+    "duration" : 7137
+  },
+  "description" : "При обновлении email пользователя, при использовании уже занятого email возвращается код 403 и значение ключа <success> - <false>, сообщение об ошибке <message> - <User with such email already exists>",
+  "descriptionHtml" : "<p>При обновлении email пользователя, при использовании уже занятого email возвращается код 403 и значение ключа <success> - <false>, сообщение об ошибке <message> - <User with such email already exists></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "При обновлении email пользователя, при использовании уже занятого email возвращается код 403 и значение ключа <success> - <false>, сообщение об ошибке <message> - <User with such email already exists>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554851758,
+        "stop" : 1653554851758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554851758,
+        "stop" : 1653554852269,
+        "duration" : 511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@43a9988a"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554852270,
+        "stop" : 1653554852313,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@76fdd5f1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554853313,
+        "stop" : 1653554853313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554853313,
+        "stop" : 1653554856771,
+        "duration" : 3458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@726882da"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554856772,
+        "stop" : 1653554856814,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@7b6c3b37"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send PATCH update user data request",
+      "time" : {
+        "start" : 1653554857814,
+        "stop" : 1653554858186,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWE2OTk5ZmIyMDAxYjZmN2M4NSIsImlhdCI6MTY1MzU1NDg1NCwiZXhwIjoxNjUzNTU2MDU0fQ.dBBQE2uBFDKuPiCPqigDjw5DkZG3pNg86uFXtkmN5ME"
+      }, {
+        "name" : "newEmail",
+        "value" : "3080gen0@mail.ru"
+      }, {
+        "name" : "newPassword",
+        "value" : "testPassword1"
+      }, {
+        "name" : "newName",
+        "value" : "Test Name"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554858251,
+        "stop" : 1653554858584,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWFhOTk5ZmIyMDAxYjZmN2M4NyIsImlhdCI6MTY1MzU1NDg1OCwiZXhwIjoxNjUzNTU2MDU4fQ.R9mcKltrUCVFL3hje5p4f0SrJ1mUhfiYlk4ZTgSMHV8"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554858586,
+        "stop" : 1653554858894,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZWE2OTk5ZmIyMDAxYjZmN2M4NSIsImlhdCI6MTY1MzU1NDg1NCwiZXhwIjoxNjUzNTU2MDU0fQ.dBBQE2uBFDKuPiCPqigDjw5DkZG3pNg86uFXtkmN5ME"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserDataUpdateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userEmailDataUpdateWithAuthWithExistEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "UserDataUpdateTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39603c2029d1fe02.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,157 @@
+{
+  "uid" : "3ce08322bfba82fb",
+  "name" : "Тест метода создания заказа",
+  "fullName" : "OrderCreationParameterizedTest.orderCreationTest[6]",
+  "historyId" : "e7cf46c3938bc42b92325c074feff3b8",
+  "time" : {
+    "start" : 1653554836592,
+    "stop" : 1653554838902,
+    "duration" : 2310
+  },
+  "description" : "Создание заказа авторизованным пользователем с использованием валидных хэшей ингредиента возвращает код 200Если хотя бы один хэш ингредиента невалиден- возвращается код 500При отсутствии авторизации возвращается код 403, валидность хэшей ингредиентов не проверяется",
+  "descriptionHtml" : "<p>Создание заказа авторизованным пользователем с использованием валидных хэшей ингредиента возвращает код 200Если хотя бы один хэш ингредиента невалиден- возвращается код 500При отсутствии авторизации возвращается код 403, валидность хэшей ингредиентов не проверяется</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создание заказа авторизованным пользователем с использованием валидных хэшей ингредиента возвращает код 200Если хотя бы один хэш ингредиента невалиден- возвращается код 500При отсутствии авторизации возвращается код 403, валидность хэшей ингредиентов не проверяется",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate new user with random data",
+      "time" : {
+        "start" : 1653554836593,
+        "stop" : 1653554836593,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST user registration request",
+      "time" : {
+        "start" : 1653554836593,
+        "stop" : 1653554837235,
+        "duration" : 642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User@419ece7a"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET user authentication",
+      "time" : {
+        "start" : 1653554837238,
+        "stop" : 1653554837287,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@76efa2b7"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send POST create order request",
+      "time" : {
+        "start" : 1653554838287,
+        "stop" : 1653554838559,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZTk2OTk5ZmIyMDAxYjZmN2M3YiIsImlhdCI6MTY1MzU1NDgzOCwiZXhwIjoxNjUzNTU2MDM4fQ.hxndor6QLIVBatW4uKC1Hph3iJamnLL5Dp_GRsMEmUMqwe"
+      }, {
+        "name" : "ingredients",
+        "value" : "[61c0c5a71d1f82001bdaaa6dqwe, 61c0c5a71d1f82001bdaaa6fqwe]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Send DELETE test user request",
+      "time" : {
+        "start" : 1653554838560,
+        "stop" : 1653554838902,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGYzZTk2OTk5ZmIyMDAxYjZmN2M3YiIsImlhdCI6MTY1MzU1NDgzOCwiZXhwIjoxNjUzNTU2MDM4fQ.hxndor6QLIVBatW4uKC1Hph3iJamnLL5Dp_GRsMEmUM"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreationParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderCreationTest[6]"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreationParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "KY11-office"
+  }, {
+    "name" : "thread",
+    "value" : "14124@KY11-office.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ce08322bfba82fb.json",
+  "parameterValues" : [ ]
+}
